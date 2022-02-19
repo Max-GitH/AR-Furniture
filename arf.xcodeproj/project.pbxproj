@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD32A9E927C0C435008221C0 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AD32A9E527C0C435008221C0 /* flower_tulip.usdz */; };
+		AD32A9EA27C0C435008221C0 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AD32A9E627C0C435008221C0 /* teapot.usdz */; };
+		AD32A9EB27C0C435008221C0 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AD32A9E727C0C435008221C0 /* chair_swan.usdz */; };
+		AD32A9EC27C0C435008221C0 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AD32A9E827C0C435008221C0 /* cup_saucer_set.usdz */; };
 		ADAA33DB27C0AF28003F5C8D /* arfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA33DA27C0AF28003F5C8D /* arfApp.swift */; };
 		ADAA33DD27C0AF28003F5C8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA33DC27C0AF28003F5C8D /* ContentView.swift */; };
 		ADAA33DF27C0AF2C003F5C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA33DE27C0AF2C003F5C8D /* Assets.xcassets */; };
 		ADAA33E227C0AF2C003F5C8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA33E127C0AF2C003F5C8D /* Preview Assets.xcassets */; };
+		ADC5348E27C0F2DA00BF6F7A /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC5348D27C0F2DA00BF6F7A /* ControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD32A9E527C0C435008221C0 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = flower_tulip.usdz; path = ../../../../../Downloads/flower_tulip.usdz; sourceTree = "<group>"; };
+		AD32A9E627C0C435008221C0 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = teapot.usdz; path = ../../../../../Downloads/teapot.usdz; sourceTree = "<group>"; };
+		AD32A9E727C0C435008221C0 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = chair_swan.usdz; path = ../../../../../Downloads/chair_swan.usdz; sourceTree = "<group>"; };
+		AD32A9E827C0C435008221C0 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = cup_saucer_set.usdz; path = ../../../../../Downloads/cup_saucer_set.usdz; sourceTree = "<group>"; };
 		ADAA33D727C0AF28003F5C8D /* arf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAA33DA27C0AF28003F5C8D /* arfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arfApp.swift; sourceTree = "<group>"; };
 		ADAA33DC27C0AF28003F5C8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADAA33DE27C0AF2C003F5C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADAA33E127C0AF2C003F5C8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADAA33E827C0B24E003F5C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ADC5348D27C0F2DA00BF6F7A /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD32A9E427C0C3FA008221C0 /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AD32A9E727C0C435008221C0 /* chair_swan.usdz */,
+				AD32A9E827C0C435008221C0 /* cup_saucer_set.usdz */,
+				AD32A9E527C0C435008221C0 /* flower_tulip.usdz */,
+				AD32A9E627C0C435008221C0 /* teapot.usdz */,
+			);
+			path = "3D Assets";
+			sourceTree = "<group>";
+		};
 		ADAA33CE27C0AF28003F5C8D = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +73,11 @@
 		ADAA33D927C0AF28003F5C8D /* arf */ = {
 			isa = PBXGroup;
 			children = (
+				AD32A9E427C0C3FA008221C0 /* 3D Assets */,
+				ADAA33E827C0B24E003F5C8D /* Info.plist */,
 				ADAA33DA27C0AF28003F5C8D /* arfApp.swift */,
 				ADAA33DC27C0AF28003F5C8D /* ContentView.swift */,
+				ADC5348D27C0F2DA00BF6F7A /* ControlView.swift */,
 				ADAA33DE27C0AF2C003F5C8D /* Assets.xcassets */,
 				ADAA33E027C0AF2C003F5C8D /* Preview Content */,
 			);
@@ -125,7 +150,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD32A9EA27C0C435008221C0 /* teapot.usdz in Resources */,
+				AD32A9E927C0C435008221C0 /* flower_tulip.usdz in Resources */,
+				AD32A9EC27C0C435008221C0 /* cup_saucer_set.usdz in Resources */,
 				ADAA33E227C0AF2C003F5C8D /* Preview Assets.xcassets in Resources */,
+				AD32A9EB27C0C435008221C0 /* chair_swan.usdz in Resources */,
 				ADAA33DF27C0AF2C003F5C8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADAA33DD27C0AF28003F5C8D /* ContentView.swift in Sources */,
+				ADC5348E27C0F2DA00BF6F7A /* ControlView.swift in Sources */,
 				ADAA33DB27C0AF28003F5C8D /* arfApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +302,7 @@
 				DEVELOPMENT_TEAM = BQNY88LNAF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = arf/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +332,7 @@
 				DEVELOPMENT_TEAM = BQNY88LNAF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = arf/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

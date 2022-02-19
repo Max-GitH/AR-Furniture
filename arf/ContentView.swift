@@ -6,12 +6,31 @@
 //
 
 import SwiftUI
+import RealityKit
 
 struct ContentView: View {
+    @State private var areControlsVisable: Bool = true
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(alignment: .bottom){
+            ARViewContainer()
+            
+            ControlView(areControlsVisable: $areControlsVisable)
+        }
+        .edgesIgnoringSafeArea(.all)
     }
+}
+
+struct ARViewContainer:
+                            
+    UIViewRepresentable{
+    
+    func makeUIView(context: Context) -> UIView {
+    let arView = ARView(frame: .zero)
+    return arView
+    }
+    
+    func updateUIView(_ uiView: UIView, context: Context) {}
 }
 
 struct ContentView_Previews: PreviewProvider {
