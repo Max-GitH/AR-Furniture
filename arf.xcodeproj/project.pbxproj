@@ -16,6 +16,7 @@
 		ADAA33DF27C0AF2C003F5C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA33DE27C0AF2C003F5C8D /* Assets.xcassets */; };
 		ADAA33E227C0AF2C003F5C8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA33E127C0AF2C003F5C8D /* Preview Assets.xcassets */; };
 		ADC5348E27C0F2DA00BF6F7A /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC5348D27C0F2DA00BF6F7A /* ControlView.swift */; };
+		ADD78FDB27C3786200837319 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD78FDA27C3786200837319 /* BrowseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ADAA33E127C0AF2C003F5C8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADAA33E827C0B24E003F5C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ADC5348D27C0F2DA00BF6F7A /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		ADD78FDA27C3786200837319 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				ADAA33DA27C0AF28003F5C8D /* arfApp.swift */,
 				ADAA33DC27C0AF28003F5C8D /* ContentView.swift */,
 				ADC5348D27C0F2DA00BF6F7A /* ControlView.swift */,
+				ADD78FDA27C3786200837319 /* BrowseView.swift */,
 				ADAA33DE27C0AF2C003F5C8D /* Assets.xcassets */,
 				ADAA33E027C0AF2C003F5C8D /* Preview Content */,
 			);
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD78FDB27C3786200837319 /* BrowseView.swift in Sources */,
 				ADAA33DD27C0AF28003F5C8D /* ContentView.swift in Sources */,
 				ADC5348E27C0F2DA00BF6F7A /* ControlView.swift in Sources */,
 				ADAA33DB27C0AF28003F5C8D /* arfApp.swift in Sources */,
