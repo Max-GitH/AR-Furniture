@@ -9,7 +9,7 @@ import SwiftUI
 import RealityKit
 
 struct ContentView: View {
-    @State private var areControlsVisable: Bool = true
+    @State private var areControlsVisable: Bool = false
     @State private var showBrowse: Bool = false
     
     var body: some View {
